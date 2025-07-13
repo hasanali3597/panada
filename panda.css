@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1480px;
+    margin:auto;
+}
+
+/* comann css */
+.panada-button{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    border: none;
+    width: 150px;
+    height: 45px;
+    color: wheat;
+   border-radius: 5px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+.searce-perecn{
+ position: relative;
+ color: #BABABA;
+}
+.searce-perecn input{
+   background-color:rgb(241, 241, 241);
+   border-radius: 30px;
+   width: 508px;
+   height: 35px;
+   border: none;
+   
+}
+.searce-perecn i{
+    
+    position: absolute;
+    top: 13px;
+    right: 25px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+     gap: 10px;
+}
+.nav-items li a {
+   text-decoration: none;
+   color: #707070;
+}
+/* banner sytles */
+.banner{
+    background: rgb(254, 234, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.banner-images{
+    width: 402px;
+    height: 378px;
+}
+.banner h2{
+    font-size: 52px;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    margin: 5px auto;
+}
+.banner p{
+    color: rgb(78, 78, 78);
+    margin: 10px auto;
+   
+}
+.banner-price{
+   color: rgb(255, 19, 111);
+   font-size: 41px;
+   font-weight: bolder;
+}
