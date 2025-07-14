@@ -1,8 +1,9 @@
 *{
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 .container{
-    max-width: 1480px;
+    /* max-width: 1480px; */
     margin:auto;
 }
 
@@ -38,8 +39,8 @@ nav{
 .searce-perecn i{
     
     position: absolute;
-    top: 13px;
-    right: 25px;
+    top: 11px;
+    right: 18px;
 }
 .nav-items{
     display: flex;
@@ -72,11 +73,56 @@ nav{
 }
 .banner p{
     color: rgb(78, 78, 78);
-    margin: 10px auto;
-   
+    /* margin: 10px auto; */
+   max-width: 356px;
+   height: 70px;
 }
 .banner-price{
    color: rgb(255, 19, 111);
    font-size: 41px;
    font-weight: bolder;
+   width: 117px;
+   height: 67px;
 }
+/*Categories-cars-container  */
+.Categories-cars-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Categories-watch h3{
+    color: wheat;
+    font-weight: bold;
+}
+.Categories-cars-container img{
+    width: 68.21px;
+    height: 90px;
+}
+.Categories-watch{
+ background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+ width: 359px;
+ height: 100px;
+ display: flex ;
+ align-items: center;
+ justify-content: space-between;
+ border-radius: 10px;
+}
+.Categories-bag{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+     width: 359px;
+ height: 100px;
+ display: flex ;
+ align-items: center;
+ justify-content: space-between;
+ border-radius: 10px;
+}
+
+.Categories-shoes{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+     width: 359px;
+ height: 100px;
+ display: flex ;
+ align-items: center;
+ justify-content: space-between;
+ border-radius: 10px;
+ }
