@@ -3,7 +3,7 @@
     font-family: "Poppins", sans-serif;
 }
 .container{
-    /* max-width: 1480px; */
+    max-width: 1480px;
     margin:auto;
 }
 
@@ -16,7 +16,14 @@
     color: wheat;
    border-radius: 5px;
 }
-
+.main-bg-color{
+    background: rgb(244, 244, 244);
+}
+/* Categories titles */
+.Categories-titles{
+    width: 203px;
+    height: 54px;
+}
 
 nav{
     display: flex;
@@ -85,14 +92,20 @@ nav{
    height: 67px;
 }
 /*Categories-cars-container  */
+.section-Categories{
+    padding: 64px 0px;
+}
 .Categories-cars-container{
     display: flex;
     justify-content: space-between;
    
 }
-.Categories-watch h3{
+.Categories-cars-container h3{
     color: wheat;
     font-weight: bold;
+    width: 120px;
+    height: 54px;
+   
 }
 .Categories-cars-container img{
     width: 68.21px;
@@ -106,6 +119,7 @@ nav{
  align-items: center;
  justify-content: space-between;
  border-radius: 10px;
+margin: 0 0 0 10px;
 }
 .Categories-bag{
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
@@ -126,3 +140,96 @@ nav{
  justify-content: space-between;
  border-radius: 10px;
  }
+ /* Shoes */
+ .hasan{
+    display: flex;
+    justify-content: space-between;
+ }
+ .Shoes-main-sectino h2{
+    width: 203px;
+height: 54px;
+ }
+ .Shoes-card img{
+width: 336px;
+height: 202px
+ }
+.Shoes-card h3{
+    width: 303px;
+    height: 36px;
+}
+.Shoes-card p{
+    width: 307px;
+height: 52px;
+
+}
+.Shoes-card h5{
+    /* width: 25px;
+height: 26px; */
+font-size: 24px;
+font-weight: 500;
+margin: 5px 0px;
+
+}
+.Shoes-button{
+  background: rgb(0, 0, 0);
+  color: wheat;
+  width: 168px;
+height: 52px;
+border-radius: 5px;
+}
+/* Backpack */
+.Backpack-main{
+    margin: 98px 0px;
+    justify-content: space-between;
+}
+.Backpack-main h2{
+    width: 181px;
+height: 54px;
+font-size: 36px;
+font-weight: 600;
+}
+.Backpack-main h5{
+color: rgb(255, 157, 0);
+width: 70px;
+height: 20px;
+font-size: 20px;
+font-weight: 500;
+}
+.nurnobi{
+    display: flex;
+    justify-content: space-between;
+}
+.Backpack{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.Backpack h3{
+    width: 303px;
+height: 36px;
+font-size: 24px;
+font-weight: 600;
+}
+.Backpack h5{
+    /* width: 65px;
+height: 36px; */
+font-size: 24px;
+font-weight: 500;
+}
+.Backpack p{
+    width: 307px;
+height: 52px;
+    font-size: 16px;
+font-weight: 400;
+}
+.Backpack img{
+    width: 290px;
+height: 290px;
+
+}
+/* specials */
+.specials{
+   margin: 0 auto;
+    width: 1212px;
+height: 455px;
+}
