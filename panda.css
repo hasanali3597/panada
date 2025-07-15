@@ -5,6 +5,7 @@
 .container{
     max-width: 1480px;
     margin:auto;
+   
 }
 
 /* comann css */
@@ -94,6 +95,9 @@ nav{
 /*Categories-cars-container  */
 .section-Categories{
     padding: 64px 0px;
+    
+    max-width: 1480px;
+    margin:0px 45px;
 }
 .Categories-cars-container{
     display: flex;
@@ -141,6 +145,10 @@ margin: 0 0 0 10px;
  border-radius: 10px;
  }
  /* Shoes */
+ .Shoes-main-sectino{
+    margin: 0px 45px
+    ;
+ }
  .hasan{
     display: flex;
     justify-content: space-between;
@@ -198,11 +206,13 @@ font-weight: 500;
 .nurnobi{
     display: flex;
     justify-content: space-between;
+    margin: 0px 45px;
 }
 .Backpack{
     display: flex;
     gap: 24px;
     justify-content: space-between;
+    margin: 0px 45px;
 }
 .Backpack h3{
     width: 303px;
@@ -228,8 +238,36 @@ height: 290px;
 
 }
 /* specials */
-.specials{
-   margin: 0 auto;
-    width: 1212px;
-height: 455px;
+
+.specials h3{
+    color: rgb(31, 31, 31);
+    font-size: 30px;
+font-weight: 600;
+margin: 10px auto;
+}
+.specials p{
+    font-size: 16px;
+font-weight: 500;
+color: rgb(112, 112, 112);
+}
+.contatax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red;
+    */
+    margin: 0px 45px;
+    margin:auto;
+}.button-email button{
+      background: linear-gradient(180.00deg, rgb(255, 88, 155) 0.004%,rgb(255, 19, 111) 100.004%);
+      color: wheat;
+      width: 100px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      font-size: 20px;
+}
+.ali{
+    width: 194px;
+height: 36px;
 }
